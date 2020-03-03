@@ -10,6 +10,8 @@ class Thread(threading.Thread):
 
 contador=0
 f = open("texto.txt", "r")
+b = open("texto.txt", "r")
+
 a = open("texto.txt", "a")
 
 lock = threading.Lock()
@@ -33,7 +35,7 @@ def lector1():
 def lector2():
     while contador <5:
         print("Hola soy el lector 2 y el archivo de texto dice:")
-        print(f.read())
+        print(b.read())
         conteo()
         escritor2()
 
