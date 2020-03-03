@@ -1,0 +1,8 @@
+Este es un archivo para resolver el problema de lector escritor. :)
++++++++Esta linea ha sido escrita por el escritor 1
+
+-------Esta linea ha sido escrita por el escritor 2
+
++++++++Esta linea ha sido escrita por el escritor 1
+
+-------Esta linea ha sido escrita por el escritor 2
